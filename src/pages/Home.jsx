@@ -17,7 +17,6 @@ const Home = () =>{
         
           <img src={reactLogo1} className="logo1 react" alt="React logo1" width="300" height="450" />
         </div>
-      </div> */
       <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active" data-bs-interval="10000">
