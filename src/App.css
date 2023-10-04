@@ -1,11 +1,15 @@
+body{
+ 
+  background: linear-gradient(to bottom right,rgb(12, 11, 56), rgb(31, 19, 78));
+}
 
-
-#root {
+ #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin:auto;
   padding: 2rem;
   text-align: center;
-}
+
+} 
 .Navbar{
  color: aqua;
 
@@ -65,4 +69,173 @@ small{
 }
 Form.Label{
   color: white;
+}
+/* .logo1 react{
+  display: flex;
+  border: #efe8ee;
+
+} */
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  text-align: center;
+  color: white;
+  margin: 30px;
+}
+
+.form-group{
+ display: flex;
+ margin: 10px;
+
+}
+.header {
+  color: #efe8ee;
+  font-size: 27px;
+  padding: 10px;
+}
+.bigicon {
+  font-size: 35px;
+  color: #eceff1;
+}
+hr {
+  height: 8px;
+  background-color: rgb(221, 44, 191);
+}
+
+
+.conteiner-index{
+  display: inline-flex;
+  margin: 40px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.conteiner-index img{
+  border-radius: 20px;
+  display: flex;
+  margin: auto;
+  padding: 3%;
+
+  
+}
+carousel slide{
+  display: flex;
+  
+}
+.carousel-item{
+border-radius: 20px;
+
+
+}
+section{
+  display:inline-block;
+  padding: 10px;
+  height: auto;
+}
+.card-img-top{
+  height: 300px;
+}
+.card{
+  display: flex;
+  width: 350px;
+
+}
+aside {
+  
+  border-radius: 5px;
+  float: left;
+  background-color: rgb(237, 108, 251);
+}
+.btn-secondary {
+  margin-left: 40%;
+}
+/*pelicula*/
+
+main{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*card de la pelicula*/
+.movie {
+  width: 200px;
+  display:flex;
+  margin: 1rem;
+  border-radius: 3px;
+  box-shadow: 0.2px 4px 5px rgba(0,0,0,0.1);
+  background-color: var(--secondary-color);
+  position:relative;
+  overflow: hidden;
+}
+
+
+.movie img{
+  width:100%;
+}
+
+.movie-info{
+  color:#eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+.movie-info h3{
+  margin-top: 0;
+}
+.voto{
+  color: rgb(43, 249, 16);
+}
+/*posiciono la clase encima de la card*/
+.descripción{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: #fff;
+  padding: 1rem;
+  max-height: 100%;
+  transform:translateY(101%); 
+}
+
+.movie:hover .descripción{
+  transform:translateY(0)
+}
+
+#tags{
+  width:80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.tag{
+  color: rgb(241, 143, 225);
+ font-weight: bold;
+  padding:10px 5px;
+  margin:5px;
+  display:inline-block;
+  cursor: pointer;
+}
+
+.tag.destacar{
+  background-color: rgb(240, 234, 238);
+  border-radius: 50px;
+}
+
+
+.ver{
+  background-color: rgb(235, 109, 195);
+  color:white;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 5px;
 }

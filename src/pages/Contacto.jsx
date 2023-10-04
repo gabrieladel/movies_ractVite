@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 function Contacto() {
   return (
+    <>
     <Form>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridName">
@@ -32,10 +33,12 @@ function Contacto() {
         <Form.Control placeholder="Dirección" />
       </Form.Group>
 
+
       <Button variant="primary" type="submit">
         Enviar
       </Button>
     </Form>
+    </>
   );
 }
 export default Contacto;
